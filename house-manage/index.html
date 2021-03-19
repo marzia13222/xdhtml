@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>House Manage</title>
+	<!-- bootstrap css -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<!-- jquery popper bootstrap js -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<!-- owl carousel css -->
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<!-- style css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/style.css">
+	<!-- responsive css -->
+	<link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+	<div class="container-fluid header_n_topSection text-white">
+		<header>
+			<!-- NAVIGATION SECTION -->
+			<div class="container">
+				<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+				  <a class="navbar-brand" href="#"><img src="img/logo.png" alt=""></a>
+				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+				    <span class="navbar-toggler-icon"></span>
+				  </button>
+				  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+				    <ul class="navbar-nav ml-auto">
+				      <li class="nav-item">
+				        <a class="nav-link badge active" href="index.html">Home</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link badge" href="#">Management</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link badge" href="#">Secure Rent <img class="toggle_down" src="img/down-arrow.png"></a>
+				        <ul>
+				        	<li><a href="#">first</a></li>
+				        	<li><a href="#">second</a></li>
+				        	<li><a href="#">third</a></li>
+				        </ul>
+				      </li> 
+				      <li class="nav-item">
+				        <a class="nav-link badge" href="#">Inventor <img class="toggle_down" src="img/down-arrow.png"></a>
+				        <ul>
+				        	<li><a href="#">first</a></li>
+				        	<li><a href="#">second</a></li>
+				        	<li><a href="#">third</a></li>
+				        </ul>
+				      </li> 
+				      <li class="nav-item">
+				        <a class="nav-link badge" href="#">Contact Us</a>
+				      </li>
+				    </ul>
+				  </div>  
+				</nav>
+			</div>
+			<!-- END OF NAVIGATION -->
+		</header>
+
+		<!-- top SECTION -->
+		<div class="container top_section_wrapper">		
+			<div class="row">
+				<div class="col-12 col-lg-8">
+					<h2>Property & Block Management
+					London, Surrey, Nottingham</h2>
+					<h6>HouseManage <sup>TM</sup> | With our expertise in property management, you will be sure to have a hassie-free time as a landlord</h6>
+					<div class="row tsb_wrap">
+						<div class="col-4">
+							<ul>
+								<li>Residential Property Management</li>
+								<li>Block Management</li>
+							</ul>
+						</div>
+						<div class="col-4">
+							<ul>
+								<li>HMO Conversions & Management</li>
+								<li>Property Maintenance & Repairs</li>
+							</ul>
+						</div>
+						<div class="col-4">
+							<img class="trustpilot" src="img/trustpilot.png">
+						</div>
+					</div>
+					<div class="btn_wrap">
+						<button class="btn text-white btn_blue">Instant Management Quote</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- END OF top SECTION -->
+	</div>
+
+		
+	<!-- brand section -->
+	<div class="container-fluid brand_section">
+		<div class="video_wrpper">
+			<video id="videoBG" poster="img/top-bg.png" autoplay muted loop>
+				<source src="video/videoplayback.mp4" type="video/mp4">
+			</video>
+		</div>
+
+		<div class="container brand_wrapper">
+			<div class="row brr">
+				<div class="col-12 col-md-7 col-sm-6 brl">
+					<img src="img/nrla.png" alt="">
+					<img src="img/prs.png" alt="">
+					<img src="img/cmp.png" alt="">
+					<img src="img/ico.png" alt="">
+					<img src="img/hiscox.png" alt="">
+				</div>
+				<div class="col-12 col-md-5 col-sm-6">
+					<div class="card form_wrapper animated for_fu_scroll">
+						<h3>Get a Quote Today </h3>
+						<p>30 seconds</p>
+						<hr class="sr">
+						<div class="span_wrapper">
+							<hr>
+							<span>1</span>
+							<span>2</span>
+							<span>3</span>
+						</div>
+						<form action="">
+							<div class="row">
+								<div class="col-12">
+									<label for="sel1">What type of property do you need managed ?</label>
+									<select class="form-control" id="sel1" name="sellist1">
+									  <option class="" selected>HMO</option>
+									  <option class="">NSW</option>
+									  <option class="">DK</option>
+									  <option class="">CA</option>
+									</select>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-12">
+									<label for="sel1">Tenants</label>
+									<select class="form-control" id="sel1" name="sellist1">
+									  <option class="" selected>Unoccupied</option>
+									  <option class="">NSW</option>
+									  <option class="">DK</option>
+									  <option class="">CA</option>
+									</select>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-12">
+									<label for="sel1">Number of units/rooms</label>
+									<select class="form-control" id="sel1" name="sellist1">
+									  <option class="" selected>6</option>
+									  <option class="">8</option>
+									  <option class="">2</option>
+									  <option class="">1</option>
+									</select>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-12 brb_bw">
+									<button type="submit" class="btn btn_db">Get Quote</button>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end of brand section -->
+
+	<!-- expert property section -->
+	<div class="container expp_wrapper">
+		<div class="row exppr">
+			<div class="col-12">
+				<h3>Expert Property Management</h3>
+			</div>
+			<div class="col-12 col-md-6 col-sm-4 animated for_sl_scroll">
+				<img src="img/expl.png" alt="">
+			</div>
+			<div class="col-12 col-md-6 col-sm-8">
+				<h6>HouseManage <sup>TM</sup> manages and converts properties</h6>
+				<p class="blue">
+					We cover all aspects, from block-management to residential property managemetn with guaranteed rent. We offer investment and full lease option for coverting residential units to HMO's (House of multiple occupation) in order to get the highest possible yield for our clients.
+				</p>
+				<p class="normal">
+					Our reliable, dedicated and trustworthy service allows landlords and HMG
+					landlords not to have to worry about their investment and keep a secure
+					monthly income. We will act as the main point of contact for the tenant and
+					will make sure they pay the rent on time every month. If you choose our Ful
+					Manage package we will action any required repairs and maintenance
+					services at the property in a cost-effective and efficient manner. If you opt
+					for our guaranteed rent scheme, this option will ensure you get a guaranteed
+					monthly income on time. This is whether we do rent collection or not, or even
+					if the tenants do not pay Our team is here to give you total peace of mind
+					
+				</p>
+				<p>
+					Making sure you get a healthy return on your investment is our goal. We
+					ensure that a high level of communication is maintained throughout the
+					management by taking the necessary time to meet with landiords and
+					meet with tenants to discuss the needs of both parties</p>
+			</div>
+			<div class="col-12 btn_dbw">
+				<button class="btn btn_db">
+					See Prices <img src="img/right-arrow.png" alt="">
+				</button>
+			</div>
+		</div>
+	</div>
+	<!-- end of expert property section -->
+
+	<!-- hmo block section -->
+	<div class="container-fluid hmbl_section">
+		<div class="container hmbl_wrapper">
+			<div class="row hmbl_inner">
+				<div class="col-12 col-sm-6">
+					<div class="imgw animated for_sl_scroll">
+						<img src="img/hmo.png" alt="">
+					</div>
+					<div class="hmbl_btm hb1">
+						<h3>HMO</h3>
+						<p>
+							We are known as the leading HMO (House of Multiple
+							Occupations) management company in London. As with
+							the years of experience and extensive knowledge, we are
+							managing everything from tenant sourcing, rent collection,
+							maintenance, and much more.
+						</p>
+						<h4>Fully Managed €49 per room</h4>
+						<button class="btn btn_lb">See Details <img src="img/right-arrow.png" alt=""></button>
+					</div>
+				</div>
+				<div class="col-12 col-sm-6">
+					<div class="imgw animated for_sr_scroll">
+						<img src="img/blm.png" alt="">
+					</div>
+					<div class="hmbl_btm hb2">	
+						<h3>BLOCK MANAGEMENT</h3>
+						<p>
+							We are a professional of block management in London.
+							We focus on managing the communal areas of residential
+							properties. We focus on a professional approach and work
+							with dedication. Not only maintenance and management,
+							but we also deal with legislation and household matters
+							for our clients.
+						</p>
+						<h4>Fully Managed €79 per unit</h4>
+						<button class="btn btn_lb">See Details <img src="img/right-arrow.png" alt=""></button>
+					</div>	
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end of hmo block section -->
+
+	<!-- offer section -->
+	<div class="container offer_wrapper">
+		<div class="row offer_inner">
+			<div class="col-12 col-sm-5">
+				<h3>What Do We Offer You?</h3>
+			</div>
+			<div class="col-12 col-sm-7">
+				<p>
+					We have designed a catalogue of services to meet the needs of property stakeholders
+					whether a season professional, an investor or a new landlord. We have secure Surrey
+					Nottingham and london Property Management options which suit the ever-growing
+					demand of our audience.	
+				</p>
+			</div>
+		</div>
+	</div>
+	<!-- end of offer section -->
+
+	<!-- services section -->
+	<div class="container services_wrapper">
+		<div class="row services_inner">
+			<div class="col-12 col-lg-4 srvc_left">
+				<h3>SERVICES</h3>
+				<ul>
+					<li>Guranteed rent</li>
+					<li>Hmo management</li>
+					<li>Block management</li>
+					<li>Property management</li>
+					<li>Tenant sourcing</li>
+					<li>Property Maintenance</li>
+				</ul>
+				<div class="trbtnw">
+					<button class="btn rounded-pill btn_tr">Download Brochure</button>
+				</div>
+			</div>
+			<div class="col-12 col-lg-8">
+				<div class="row si_inner">
+					<div class="col-12 col-md-6">
+						<div class="card animated for_fu_scroll">
+							<img src="img/sourcing.png" alt="">
+							<h5>Talent sourcing</h5>
+							<p>
+								Tenant sourcing or let only service is ideal
+								if you are simply looking for an agent to
+								find you the best possible tenant but wish
+								to manage the property yourself. Our
+								team is here to give you total peace of
+								mind you have the right tenant for your
+								property.
+							</p>
+							<button class="btn btn_tr">Find out more >></button>
+						</div>
+					</div>
+					<div class="col-12 col-md-6">
+						<div class="card animated for_fu_scroll">
+							<img src="img/pm.png" alt="">
+							<h5>Property Management</h5>
+							<p>
+								We will act as the main point of contact
+								for the tenant if you choose our Full
+								Manage package and will action any
+								required repairs and maintenance
+								services at the property ina
+								cost-effective and efficient manner
+							</p>
+							<button class="btn btn_tr">Find out more >></button>
+						</div>
+					</div>
+					<div class="col-12 col-md-6">
+						<div class="card animated for_fu_scroll">
+							<img src="img/gr.png" alt="">
+							<h5>Guaranteed Rent</h5>
+							<p>
+								Engage your property prayers answered.
+								Having total certainty about your returns
+								and your rent Guaranteed every single
+								month. No voids, even when the property
+								is empty. We do the hard work so you
+								don't have to, giving you absolute peace
+								of mind
+							</p>
+							<button class="btn btn_tr">Find out more >></button>
+						</div>
+					</div>
+					<div class="col-12 col-md-6">
+						<div class="card animated for_fu_scroll">
+							<img src="img/gr2.png" alt="">
+							<h5>Guaranteed Rent</h5>
+							<p>
+								Engage your property prayers answered.
+								Having total certainty about your returns
+								and your rent Guaranteed every single
+								month. No voids, even when the property
+								is empty. We do the hard work so you
+								don't have to, giving you absolute peace
+								of mind
+							</p>
+							<button class="btn btn_tr">Find out more >></button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end of services section -->
+
+	<!-- choose section -->
+	<div class="container-fluid choose_section">	<div class="choose_wrapper container">
+		<div class="row choose_inner">
+			<div class="col-12 col-sm-6"></div>
+			<div class="col-12 col-sm-6 choose_right">
+				<h3>Why Choose Us?</h3>
+				<p>
+					Like no other block company in London. Wete tocussed
+					on providing a great service and prepored to step up
+					and guarantee it.
+				</p>
+				<ul>
+					<li>Top - rated service</li>
+					<li>We'll offer A Gurantee</li>
+					<li>Experienced & Well-Resource Team</li>
+					<li>Robust Financial Management</li>
+				</ul>
+				<button class="btn_lb btn">
+					See Details <img src="img/right-arrow.png" alt="">
+				</button>
+			</div>
+		</div>
+	</div>
+	</div>					
+	<!-- end of choose section -->
+
+	<!-- expert property section -->
+	<div class="container expp2_wrapper">
+		<div class="row expp_inner">
+			<div class="col-12">
+				<h3>Expert Property Management</h3>
+			</div>
+			<div class="col-12 col-sm-6">
+				<p>Before</p>
+				<img class="animated for_su_scroll" src="img/expb.png" alt="">
+				<p>€1800 per month</p>
+			</div>
+			<div class="col-12 col-sm-6">
+				<p>After</p>
+				<img class="animated for_su_scroll" src="img/expr.png" alt="">
+				<p>€3600 per month</p>
+			</div>
+			<div class="col-12">
+				<p class="desc">Download our case study to see how Ms. Khan Benefited from our HMO Conversion, Management and Guaranteed Rent</p>
+				<div class="btnw">
+					<button class="btn btn_tr exp_btn">
+						Download Case Study 
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end of expert property section -->
+
+	<!-- management fee section -->
+	<div class="container mntf_wrapper">
+		<div class="row mntf_inner">
+			<div class="col-12">
+				<h3>Our Property Management Fees</h3>
+				<p>
+					How much is Property Management and does HouseManacgeM do property management in
+					Croydon and London?
+				</p>
+				<p>
+					Our property management in London and Outer London Ranges from £75£249, If you have an
+					HMO and are looking for HMO Management this price starts from £49 per room.
+				</p>
+			</div>
+			<div class="col-12 col-sm-6 col-lg-3">
+				<div class="card">
+					<h4>Base</h4>
+					<img src="img/place-holder.png" alt="">
+					<p class="price"><sup>€</sup>75</p>
+					<p class="fee_desc">Management Fee</p>
+					<hr>
+					<p class="income">€1k - €2.5k Rental income</p>
+					<button class="btn btn_tr">Instant Manage</button>
+				</div>
+			</div>
+			<div class="col-12 col-sm-6 col-lg-3">
+				<div class="card">
+					<button class="btn badge">
+						Popular
+					</button>
+					<h4>Economy</h4>
+					<img src="img/place-holder.png" alt="">
+					<p class="price"><sup>€</sup>99</p>
+					<p class="fee_desc">Management Fee</p>
+					<hr>
+					<p class="income">€1k - €2.5k Rental income</p>
+					<button class="btn btn_tr">Instant Manage</button>
+				</div>
+			</div>
+			<div class="col-12 col-sm-6 col-lg-3">
+				<div class="card">
+					<h4>Standard</h4>
+					<img src="img/place-holder.png" alt="">
+					<p class="price"><sup>€</sup>145</p>
+					<p class="fee_desc">Management Fee</p>
+					<hr>
+					<p class="income">€2.5k - €4k Rental income</p>
+					<button class="btn btn_tr">Instant Manage</button>
+				</div>
+			</div>
+			<div class="col-12 col-sm-6 col-lg-3">
+				<div class="card">
+					<h4>Premium</h4>
+					<img src="img/place-holder.png" alt="">
+					<p class="price"><sup>€</sup>245</p>
+					<p class="fee_desc">Management Fee</p>
+					<hr>
+					<p class="income">€4K+ Rental income</p>
+					<button class="btn btn_tr">Instant Manage</button>
+				</div>
+			</div>
+		</div>
+		<div class="row mntf_desc">
+			<div class="col-12">
+				<p>
+					All our Surrey, London, Surrey and Nottingham Property Management services comes with our
+					full dedicated support. This means you will never have to deal with tenant quires, contractors
+					with maintenance and repairs we handle this for you
+				</p>
+			</div>
+		</div>
+		<div class="row mntf_bottom">
+			<div class="col-12 col-sm-6 col-lg-4">
+				<div class="card">
+					<button class="btn badge">
+						Popular
+					</button>
+					<h4>HMO MGMNT</h4>
+					<img src="img/place-holder.png" alt="">
+					<p class="price"><sup>€</sup>49</p>
+					<p class="fee_desc">Management Fee/room</p>
+					<hr>
+					<p class="income">€0- €1k Rental income</p>
+					<button class="btn btn_tr">Get Quote</button>
+				</div>
+			</div>
+			<div class="col-12 col-sm-6 col-lg-4">
+				<div class="card">
+					<button class="btn badge">
+						Popular
+					</button>
+					<h4>BLOCK MGMNT</h4>
+					<img src="img/place-holder.png" alt="">
+					<p class="price"><sup>€</sup>49</p>
+					<p class="fee_desc">Management Fee/room</p>
+					<hr>
+					<p class="income">€0- €1k Rental income</p>
+					<button class="btn btn_tr">Get Quote</button>
+				</div>
+			</div>
+			<div class="col-12 col-sm-6 col-lg-4">
+				<div class="card">
+					<button class="btn badge">
+						Popular
+					</button>
+					<h4>Maintenance MGMNT</h4>
+					<img src="img/place-holder.png" alt="">
+					<p class="price"><sup>€</sup>49</p>
+					<p class="fee_desc">Management Fee/room</p>
+					<hr>
+					<p class="income">€0- €1k Rental income</p>
+					<button class="btn btn_tr">Get Quote</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end of management fee section -->
+
+	<!-- faq section -->
+	<div class="container faq_wrapper">
+		<div class="row faq_inner">
+			<div class="col-12">
+				<h3>Faq's</h3>
+				<h4>What is the cost of your management?</h4>
+				<div class="toggle_fq">
+					<p>
+						How much is Property Management and does HouseManacge
+					 <sup>TM</sup> do property management in Croydon and London?</p>
+					<ul>
+						<li>What is the cost of your management?</li>
+						<li>What is the cost of your management?</li>
+						<li>What is the cost of your management?</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end of faq section -->
+
+	<!-- blog -->
+	<div class="container blog_wrapper">
+		<div class="row blog_inner">
+			<div class="col-12">
+				<h3>Our Blogs</h3>
+
+			</div>
+			<div class="col-12 col-sm-6 col-lg-4">
+				<img src="img/blog.png" alt="">
+			</div>
+			<div class="col-12 col-sm-6 col-lg-4">
+				<img src="img/blog.png" alt="">
+			</div>
+			<div class="col-12 col-sm-6 col-lg-4">
+				<img src="img/blog.png" alt="">
+			</div>
+		</div>
+	</div>
+	<!-- end blog -->
+
+	<!-- clients reviews -->
+	<div class="container review_wrapper">
+		<div class="row review_header">
+			<div class="col-12">
+				<h3>Clients Reviews</h3>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid review_section">
+		<div class="container review_wrapper2">
+			<div class="owl-carousel owl-theme">
+			    <div class="item">			    	
+			    	<div class="row review_inner">
+			    		<div class="col-12">
+			    			<h4>Headlines of review</h4>
+			    			<p>How mcuh is Property Management and does HouseManage <sup>TM</sup> do property management in Croydon and London?</p>
+			    			<span>HMO</span>
+			    		</div>
+			    	</div>
+			    </div>
+			    <div class="item">			    	
+			    	<div class="row review_inner">
+			    		<div class="col-12">
+			    			<h4>Headlines of review</h4>
+			    			<p>How mcuh is Property Management and does HouseManage <sup>TM</sup> do property management in Croydon and London?</p>
+			    			<span>HMO</span>
+			    		</div>
+			    	</div>
+			    </div>
+			    <div class="item">			    	
+			    	<div class="row review_inner">
+			    		<div class="col-12">
+			    			<h4>Headlines of review</h4>
+			    			<p>How mcuh is Property Management and does HouseManage <sup>TM</sup> do property management in Croydon and London?</p>
+			    			<span>HMO</span>
+			    		</div>
+			    	</div>
+			    </div>
+			</div>
+		</div>
+	</div>
+	<!-- end of clients reviews -->
+
+	<!-- footer section -->
+	<div class="container-fluid footer_top_section">
+		<div class="container footer_top_wrapper">
+			<div class="row ft_inner">
+				<div class="col-12 col-sm-6 col-lg-3">
+					<a class="footer_logo" href="#"><img src="img/logo.png" alt=""></a>
+					<p>
+						HouseManageTM manages properties with
+						exclusive services include block-management
+						residential property, and much more. We
+						believe in offering guaranteed rent as we value
+						our client's investment. In addition, we offer
+						investment and full lease options for converting
+						residential units to HMOs.
+					</p>
+					<ul>
+						<li><a href="#"><img src="img/insta.png" alt=""></a></li>
+						<li><a href="#"><img src="img/lnkd.png" alt=""></a></li>
+						<li><a href="#"><img src="img/twitter.png" alt=""></a></li>
+						<li><a href="#"><img src="img/ytb.png" alt=""></a></li>
+					</ul>
+				</div>
+				<div class="col-12 col-sm-6 col-lg-3">
+					<h4>Useful Links</h4>
+					<ul>
+						<li><a href="#">
+							Property Management London
+						</a></li>
+						<li><a href="#">
+							Property Management Craydon
+						</a></li>
+						<li><a href="#">
+							Property Management Sutton
+						</a></li>
+						<li><a href="#">
+							Property Management Nottingham
+						</a></li>
+						<li><a href="#">
+							Read Our Blogs
+						</a></li>
+					</ul>
+				</div>
+				<div class="col-12 col-sm-6 col-lg-3">
+					<h4>Discover</h4>
+					<ul>
+						<li><a href="#">
+							Terms & Condition
+						</a></li>
+						<li><a href="#">
+							Privacy Notice
+						</a></li>
+						<li><a href="#">
+							Reviews
+						</a></li>
+					</ul>
+				</div>
+				<div class="col-12 col-sm-6 col-lg-3 ctc_prt">
+					<h4>Contact Us</h4>
+					<p>Erin Court, 1 Nottingham Road, South Craydon, London CR2 6LN</p>
+					<ul>
+						<li>info@housemanage.co.uk</li>
+						<li>Tel: +44 (0) 203 970 0093</li>
+						<li>Whatsapp: +44 203 970 0093</li>
+					</ul>
+				</div>
+			</div>
+			<hr>
+			<footer>
+				<div class="row fb">
+					<div class="col-12 col-sm-6">
+						<p>&copy; 2015 - 2021 House Manage | All rights reserved.</p>
+					</div>
+					<div class="col-12 col-sm-6 ftr_rt">
+						<ul>
+							<li><a href="#">Terms & Conditions</a> |</li>
+							<li><a href="#">Privacy Policy</a> |</li>
+							<li><a href="#">Sitemap</a> |</li>
+							<li><a href="#">Disclaimer</a></li>
+						</ul>
+					</div>
+				</div>
+			</footer>
+		</div>
+	</div>
+	<!-- end of footer section -->
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+		<script>
+			$(document).ready(function(){
+				//mobile menu nav
+				$("nav ul li").click(function(){
+					$(this).children("ul").toggle();
+				});
+				//faq toggle
+				$(".faq_inner h4").click(function(){
+					$(".toggle_fq").toggle();
+				});
+			});	
+		</script>
+		<script>
+			var animateHTML = function() {
+		  var elems;
+		  var windowHeight;
+		  function init() {
+		    elems = document.querySelectorAll('.for_fu_scroll');
+		    windowHeight = window.innerHeight;
+		    addEventHandlers();
+		    checkPosition();
+		  }
+		  function addEventHandlers() {
+		    window.addEventListener('scroll', checkPosition);
+		    window.addEventListener('resize', init);
+		  }
+		  function checkPosition() {
+		    for (var i = 0; i < elems.length; i++) {
+		      var positionFromTop = elems[i].getBoundingClientRect().top;
+		      if (positionFromTop - windowHeight <= 0) {
+		        elems[i].className = elems[i].className.replace(
+		          'for_fu_scroll',
+		          'fadeInUp'
+		        );
+		      }
+		    }
+		  }
+		  return {
+		    init: init
+		  };
+		};
+		animateHTML().init();
+		</script>
+
+		<script>
+			var animateHTML = function() {
+		  var elems;
+		  var windowHeight;
+		  function init() {
+		    elems = document.querySelectorAll('.for_su_scroll');
+		    windowHeight = window.innerHeight;
+		    addEventHandlers();
+		    checkPosition();
+		  }
+		  function addEventHandlers() {
+		    window.addEventListener('scroll', checkPosition);
+		    window.addEventListener('resize', init);
+		  }
+		  function checkPosition() {
+		    for (var i = 0; i < elems.length; i++) {
+		      var positionFromTop = elems[i].getBoundingClientRect().top;
+		      if (positionFromTop - windowHeight <= 0) {
+		        elems[i].className = elems[i].className.replace(
+		          'for_su_scroll',
+		          'slideInUp'
+		        );
+		      }
+		    }
+		  }
+		  return {
+		    init: init
+		  };
+		};
+		animateHTML().init();
+		</script>
+		<script>
+			var animateHTML = function() {
+		  var elems;
+		  var windowHeight;
+		  function init() {
+		    elems = document.querySelectorAll('.for_sl_scroll');
+		    windowHeight = window.innerHeight;
+		    addEventHandlers();
+		    checkPosition();
+		  }
+		  function addEventHandlers() {
+		    window.addEventListener('scroll', checkPosition);
+		    window.addEventListener('resize', init);
+		  }
+		  function checkPosition() {
+		    for (var i = 0; i < elems.length; i++) {
+		      var positionFromTop = elems[i].getBoundingClientRect().top;
+		      if (positionFromTop - windowHeight <= 0) {
+		        elems[i].className = elems[i].className.replace(
+		          'for_sl_scroll',
+		          'slideInLeft'
+		        );
+		      }
+		    }
+		  }
+		  return {
+		    init: init
+		  };
+		};
+		animateHTML().init();
+		</script>
+		<script>
+			var animateHTML = function() {
+		  var elems;
+		  var windowHeight;
+		  function init() {
+		    elems = document.querySelectorAll('.for_sr_scroll');
+		    windowHeight = window.innerHeight;
+		    addEventHandlers();
+		    checkPosition();
+		  }
+		  function addEventHandlers() {
+		    window.addEventListener('scroll', checkPosition);
+		    window.addEventListener('resize', init);
+		  }
+		  function checkPosition() {
+		    for (var i = 0; i < elems.length; i++) {
+		      var positionFromTop = elems[i].getBoundingClientRect().top;
+		      if (positionFromTop - windowHeight <= 0) {
+		        elems[i].className = elems[i].className.replace(
+		          'for_sr_scroll',
+		          'slideInRight'
+		        );
+		      }
+		    }
+		  }
+		  return {
+		    init: init
+		  };
+		};
+		animateHTML().init();
+		</script>
+
+		<!-- SCRIPTS HERE -->
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/custom.js"></script>
+</body>
+</html>
