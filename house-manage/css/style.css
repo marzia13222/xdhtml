@@ -95,6 +95,17 @@ nav ul li.nav-item {
   margin-left: 3rem;
   font-size: 0.9rem;
 }
+.add_project {
+  margin-left: 7rem;
+  background-color: #1c135e;
+  border: none;
+  color: #fff;
+  padding: 3px 12px;
+  font-size: 0.9rem;
+}
+.add_project:hover {
+  opacity: 0.8;
+}
 /*brand section*/
 .brand_wrapper .brr .brl img {
   width: 17%;

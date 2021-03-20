@@ -16,6 +16,11 @@
 	}
 }
 @media only screen and (max-width: 992px){
+	.add_project {
+	  margin-left: 0rem;
+	  padding: 3px 5px;
+	  font-size: 0.7rem;
+	}
 	.brand_wrapper .brr .card {
 	    position: absolute;
 	    bottom: -16.3rem;
