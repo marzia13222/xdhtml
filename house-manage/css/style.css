@@ -77,8 +77,16 @@ nav ul li.nav-item {
   width: 50%;
   margin-bottom: 3rem;
 }
-.header_n_topSection{
-  background: url('../img/top-bg.png');
+.header_n_topSection::after{
+  content: '';
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(#747477, #030353);
+  position: absolute;
+  top: 0;
+  opacity: 0.5;
+  z-index: -1;
+  left: 0;
 }
 .tsb_wrap ul li {
   font-size: 0.9rem;
@@ -116,7 +124,7 @@ nav ul li.nav-item {
 }
 .brand_wrapper .brr .card {
   position: absolute;
-  bottom: -3.3rem;
+  bottom: -1.3rem;
   right: 1rem;
   border: 1.6px solid #A2ADB8;
   padding: 0 1.8rem;
@@ -218,16 +226,15 @@ nav ul li.nav-item {
 }
 .video_wrpper {
   width: 100%;
-  height: 10rem;
+  height: 100%;
   overflow: hidden;
+  position: absolute;
+  left: 0;
+  z-index: -1;
 }
 #videoBG {
   width: 100%;
   height: auto;
-}
-.brand_wrapper {
-  position: relative;
-  bottom: 7rem;
 }
 /*expert property section*/
 .expp_wrapper {
