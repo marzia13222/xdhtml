@@ -1,9 +1,15 @@
 @media only screen and (max-width: 1200px){
 	.top_section_wrapper h2 {
 	    width: 80%;
+	    font-size: 1.7rem;
 	}
 	.top_section_wrapper h6{
 		width: 85%;
+		margin-top: 2rem;
+	}
+	.top_section_wrapper .btn_blue {
+		margin-bottom: 5rem;
+		margin-top: 2rem;
 	}
 	.tsb_wrap ul {
 	    padding-left: 0;
@@ -14,6 +20,15 @@
 	.tsb_wrap .trustpilot {
 	    width: 50%;
 	}
+	.video_wrpper{
+		height: 93.6%;
+	}
+	.header_n_topSection::after{
+		height: 93.6%;
+	}
+	.brand_section {
+	    margin-top: 1.6rem;
+	}
 }
 @media only screen and (max-width: 992px){
 	.add_project {
@@ -21,15 +36,40 @@
 	  padding: 3px 5px;
 	  font-size: 0.7rem;
 	}
+	.top_section_wrapper {
+	    margin-top: 2rem;
+	}
+	.header_n_topSection::after {
+	    height: 72.6%;
+	}
+	.video_wrpper {
+	    height: 72.6%;
+	}
+	.top_section_wrapper h2{
+		font-size: 1.4rem;
+	}
+	.top_section_wrapper h6{
+		margin-top: 1rem;
+	}
+	.top_section_wrapper .btn_blue{
+		margin-left: 0;
+		margin-top: 0;
+	}
+	.top_section_wrapper .btn_blue {
+	    margin-bottom: 3rem;
+	}
 	.brand_wrapper .brr .card {
 	    position: absolute;
-	    bottom: -16.3rem;
+	    bottom: -22.3rem;
+	}
+	.brand_section {
+	    margin-top: 0;
 	}
 	.brand_wrapper .brr .card h3::after {
 	    left: 33%;
 	}
 	.expp_wrapper {
-	    margin-top: 17rem;
+	    margin-top: 22rem;
 	}
 	.exppr .col-sm-4 img {
 	    width: 100%;
@@ -132,7 +172,7 @@
 	}
 	.brand_wrapper .brr .card {
 	    position: absolute;
-	    bottom: -17.3rem;
+	    bottom: -25.3rem;
 	    right: 0;
 	}
 	.brand_wrapper .brr .brl img {
@@ -141,27 +181,24 @@
 	.exppr .col-sm-4 img{
 		width: 100%;
 	}
+	.expp_wrapper {
+	    margin-top: 25rem;
+	}
 	.hmbl_inner h3{
 		font-size: 0.9rem;
 	}
 	.hmbl_section .hmbl_btm p {
-
 	    height: 17rem;
-
 	}
 	.choose_wrapper h3 {
-
 	    margin-bottom: 2.3rem;
 	    margin-top: 3rem;
-
 	}
 	.choose_wrapper p{
 		width: 100%;
 	}
 	.choose_wrapper ul li {
-
 	    margin-bottom: 0.3rem;
-
 	}
 	h3::after{
 		left: 43.6%;
