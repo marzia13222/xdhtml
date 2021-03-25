@@ -122,7 +122,7 @@
 					<img src="img/hiscox.png" alt="">
 				</div>
 				<div class="col-12 col-md-5 col-sm-6">
-					<div class="card form_wrapper animated for_fu_scroll">
+					<div class="card form_wrapper first_step animated for_fu_scroll">
 						<h3>Get a Quote Today </h3>
 						<p>30 seconds</p>
 						<hr class="sr">
@@ -164,6 +164,96 @@
 									  <option class="">2</option>
 									  <option class="">1</option>
 									</select>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-12 brb_bw">
+									<button type="button" class="btn btn_db next">Next</button>
+								</div>
+							</div>
+						</form>
+					</div>
+					<div class="card form_wrapper second_step">
+						<h3>Get a Quote Today </h3>
+						<p>30 seconds</p>
+						<hr class="sr">
+						<div class="span_wrapper">
+							<hr>
+							<span>1</span>
+							<span>2</span>
+							<span>3</span>
+						</div>
+						<form action="">
+							<div class="row">
+								<div class="col-12">
+									<label for="sel1">Post Code</label>
+								</div>
+								<div class="col-12">
+									<input type="text" id="post_code" placeholder="w1 5LA">
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-12">
+									<label for="sel1">Full Address</label>
+									<select class="form-control" id="sel1" name="sellist1">
+									  <option class="" selected>17 London Road</option>
+									  <option class="">18 London Road</option>
+									  <option class="">19 London Road</option>
+									  <option class="">20 London Road</option>
+									</select>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-12">
+									<label for="sel1">What services do you require?</label>
+								</div>
+								<div class="col-4">
+									<div class="form-check">
+									  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+									  <label class="form-check-label" for="defaultCheck1">
+									    Management
+									  </label>
+									</div>
+								</div>
+								<div class="col-4">	
+									<div class="form-check">
+									  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+									  <label class="form-check-label" for="defaultCheck1">
+									    Holiday Lets
+									  </label>
+									</div>
+								</div>
+								<div class="col-4">
+									<div class="form-check">
+									  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+									  <label class="form-check-label" for="defaultCheck1">
+									    Inspection
+									  </label>
+									</div>
+								</div>
+								<div class="col-4">
+									<div class="form-check">
+									  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+									  <label class="form-check-label" for="defaultCheck1">
+									    Tenant Find
+									  </label>
+									</div>
+								</div>
+								<div class="col-4">
+									<div class="form-check">
+									  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+									  <label class="form-check-label" for="defaultCheck1">
+									    Maintenance
+									  </label>
+									</div>
+								</div>
+								<div class="col-4">
+									<div class="form-check">
+									  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+									  <label class="form-check-label" for="defaultCheck1">
+									    Inventory
+									  </label>
+									</div>
 								</div>
 							</div>
 							<div class="row">
@@ -218,6 +308,10 @@
 			</div>
 		</div>
 	</div>
+	<div class="container-fluid dots_wrapper">
+		<img src="img/dot-dot.png" alt="" class="first_dots">
+		<img src="img/dot-dot.png" alt="" class="second_dots">
+	</div>
 	<!-- end of expert property section -->
 
 	<!-- hmo block section -->
@@ -261,6 +355,10 @@
 				</div>
 			</div>
 		</div>
+	</div>
+	<div class="container-fluid dots_wrapper hmo_dots">
+		<img src="img/dot-hr.png" alt="" class="first_dots">
+		<img src="img/dot-dot.png" alt="" class="second_dots">
 	</div>
 	<!-- end of hmo block section -->
 
@@ -367,6 +465,9 @@
 				</div>
 			</div>
 		</div>
+	</div>
+	<div class="container-fluid dots_wrapper srs_dots">
+		<img src="img/dot-dot.png" alt="" class="second_dots">
 	</div>
 	<!-- end of services section -->
 
@@ -539,6 +640,9 @@
 				</div>
 			</div>
 		</div>
+	</div>
+	<div class="container-fluid dots_wrapper mgt_dots">
+		<img src="img/dot-dot.png" alt="" class="first_dots">
 	</div>
 	<!-- end of management fee section -->
 
@@ -724,8 +828,14 @@
 				$(".faq_inner h4").click(function(){
 					$(".toggle_fq").toggle();
 				});
+				//form step
+				$(".brand_wrapper .brr form .next").click(function(){
+					$(".brand_wrapper .brr .first_step").hide();
+					$(".brand_wrapper .brr .second_step").css("display", "flex");
+				});
 			});	
 		</script>
+
 		<script>
 			var animateHTML = function() {
 		  var elems;

@@ -80,7 +80,7 @@ nav ul li.nav-item {
 .header_n_topSection::after{
   content: '';
   width: 100%;
-  height: 100%;
+  height: 658px;
   background: linear-gradient(to bottom right,#020242, #404051);
   position: absolute;
   top: 0;
@@ -129,6 +129,16 @@ nav ul li.nav-item {
   border: 1.6px solid #A2ADB8;
   padding: 0 1.8rem;
   overflow: hidden;
+  width: 415px;
+}
+.brand_wrapper .brr .second_step{
+  display: none;
+}
+#post_code {
+  border: none;
+  border-bottom: 1px solid #707070;
+  width: 100%;
+  margin-bottom: 5px;
 }
 .brand_wrapper .brr .card h3 {
   font-size: 1.5rem;
@@ -173,6 +183,9 @@ nav ul li.nav-item {
 }
 .brand_wrapper .brr .span_wrapper span:last-of-type {
   right: 0;
+}
+.brand_wrapper .brr form .form-check label {
+    font-size: 0.8rem;
 }
 .brand_wrapper .brr form label {
   font-size: 0.9rem;
@@ -227,7 +240,7 @@ nav ul li.nav-item {
 }
 .video_wrpper {
   width: 100%;
-  height: 100%;
+  height: 658px;
   overflow: hidden;
   position: absolute;
   left: 0;
@@ -248,6 +261,21 @@ nav ul li.nav-item {
 .expp_wrapper .btn_dbw img {
   margin-right: -1rem;
   margin-left: 1.5rem;
+}
+.dots_wrapper img {
+  position: absolute;
+  width: 5rem;
+}
+.dots_wrapper {
+  position: relative;
+}
+.dots_wrapper img.first_dots {
+  right: 0;
+  top: -42rem;
+}
+.dots_wrapper img.second_dots {
+  top: -7.5rem;
+  left: -1rem;
 }
 .hmbl_section {
   background-color: #082641;
@@ -291,6 +319,16 @@ nav ul li.nav-item {
 .hmbl_section .hmbl_btm p {
     color: #fff;
     height: 7rem;
+}
+.hmo_dots img.first_dots {
+  width: 0.4rem;
+  left: 0;
+  top: -18rem;
+}
+.hmo_dots img.second_dots {
+  right: -2rem;
+  left: auto;
+  top: -15rem;
 }
 /*offer section*/
 .offer_inner h3 {
@@ -336,7 +374,9 @@ nav ul li.nav-item {
 .services_inner .srvc_left .trbtnw .btn_tr:hover {
   color: #000 !important;
 }
-
+.srs_dots img.second_dots {
+    top: -46.5rem;
+}
 .si_inner .card img {
   width: 3.5rem !important;
 }
@@ -453,6 +493,9 @@ nav ul li.nav-item {
   border-top: 1px solid #6b6b6c;
 }
 /*management fee*/
+.mgt_dots img.first_dots {
+    top: -77rem;
+}
 .mntf_wrapper {
   margin-top: 4rem;
 }

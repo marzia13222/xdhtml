@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1200px){
+@media only screen and (max-width: 1199.5px){
 	.top_section_wrapper h2 {
 	    width: 80%;
 	    font-size: 1.7rem;
@@ -21,16 +21,23 @@
 	    width: 50%;
 	}
 	.video_wrpper{
-		height: 93.6%;
+		height: 549px;
 	}
 	.header_n_topSection::after{
-		height: 93.6%;
+		height: 549px;
 	}
 	.brand_section {
 	    margin-top: 1.6rem;
 	}
+	.brand_wrapper .brr .card{
+		width: 385px;
+	}
+	.srs_dots img.second_dots {
+	    top: -46.5rem;
+	    left: -2rem;
+	}
 }
-@media only screen and (max-width: 992px){
+@media only screen and (max-width: 991.5px){
 	.add_project {
 	  margin-left: 0rem;
 	  padding: 3px 5px;
@@ -40,10 +47,10 @@
 	    margin-top: 2rem;
 	}
 	.header_n_topSection::after {
-	    height: 72.6%;
+	    height: 432px;
 	}
 	.video_wrpper {
-	    height: 72.6%;
+	    height: 432px;
 	}
 	.top_section_wrapper h2{
 		font-size: 1.4rem;
@@ -56,11 +63,18 @@
 		margin-top: 0;
 	}
 	.top_section_wrapper .btn_blue {
-	    margin-bottom: 3rem;
+	    margin-bottom: 2.4rem;
+	}
+	.brand_wrapper .brr .card{
+		width: 315px;
+		height: 518px;
 	}
 	.brand_wrapper .brr .card {
 	    position: absolute;
-	    bottom: -22.3rem;
+	    bottom: -23.3rem;
+	}
+	.brand_wrapper .brr form .form-check label{
+		font-size: 0.7rem;
 	}
 	.brand_section {
 	    margin-top: 0;
@@ -231,6 +245,7 @@
 	}
 	.brand_wrapper .brr .card {
 	    position: static;
+	    margin: 0 auto;
 	}
 	.expp_wrapper {
 	    margin-top: 1rem;
