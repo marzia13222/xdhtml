@@ -450,7 +450,7 @@ nav ul li.nav-item {
   position: absolute;
   left: 115%;
   top: 46%;
-  border-top: 1px dashed aliceblue;
+  border-top: 1px solid #6b6b6c;
 }
 /*management fee*/
 .mntf_wrapper {
