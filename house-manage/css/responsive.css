@@ -247,6 +247,9 @@
 	    position: static;
 	    margin: 0 auto;
 	}
+	.dots_wrapper{
+		display: none;
+	}
 	.expp_wrapper {
 	    margin-top: 1rem;
 	}
