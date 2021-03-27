@@ -34,7 +34,7 @@
 	}
 	.srs_dots img.second_dots {
 	    top: -46.5rem;
-	    left: -2rem;
+	    left: 0;
 	}
 }
 @media only screen and (max-width: 991.5px){
@@ -217,6 +217,9 @@
 	.choose_wrapper ul li {
 	    margin-bottom: 0.3rem;
 	}
+	.choose_inner .choose_right {
+	    padding-left: 0.1rem;
+	}
 	.line::after{
 		width: 36%;
 	}
@@ -265,11 +268,37 @@
 		width: 28%;
 	}
 	.choose_section {
-	  background-size: 100% 75%;
-	  background-color: #1B3B51;
+	  background: url('../img/choose-bg.png') no-repeat;
+	  position: relative;
+	  z-index: 10;
+	  text-align: center;
+	}
+	.choose_section::after {
+	  width: 100%;
+	  height: 100%;
+	  content: '';
+	  left: 0;
+	  background: #205982;
+	  position: absolute;
+	  top: 0;
+	  opacity: 0.7;
+	  z-index: -1;
 	}
 	.choose_inner .choose_right {
-	    padding-left: 15rem;
+	    padding-left: 0;
+	}
+	.choose_wrapper h3 {
+	    margin-left: auto;
+	    margin-right: auto;
+	    width: 10rem;
+	}
+	.choose_wrapper ul {
+	    width: 15rem;
+	    margin-left: auto;
+	    margin-right: auto;
+	}
+	.choose_wrapper ul li{
+		text-align: left;
 	}
 	.mntf_inner .col-lg-3{
 		margin-bottom: 1rem;
@@ -309,11 +338,5 @@
 	}
 	.line::after{
 		width: 21%;
-	}
-	.choose_section {
-	  background-size: 100% 55%;
-	}
-	.choose_inner .choose_right {
-	    padding-left: 5rem;
 	}
 }

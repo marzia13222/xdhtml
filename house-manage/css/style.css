@@ -275,7 +275,7 @@ nav ul li.nav-item {
 }
 .dots_wrapper img.second_dots {
   top: -7.5rem;
-  left: -1rem;
+  left: 0;
 }
 .hmbl_section {
   background-color: #082641;
@@ -326,7 +326,7 @@ nav ul li.nav-item {
   top: -18rem;
 }
 .hmo_dots img.second_dots {
-  right: -2rem;
+  right: 0;
   left: auto;
   top: -15rem;
 }
