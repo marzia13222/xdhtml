@@ -482,15 +482,17 @@ nav ul li.nav-item {
 .expp2_wrapper .btnw .exp_btn:hover{
   color: #000 !important ;
 }
-.expp2_wrapper .btnw .exp_btn::after {
+.line {
+  position: relative;
+}
+.line::after {
   content: '';
-  width: 500%;
+  width: 40%;
   height: 1px;
   background-color: #707070;
   position: absolute;
-  left: 115%;
-  top: 46%;
-  border-top: 1px solid #6b6b6c;
+  right: 0;
+  top: -19px;
 }
 /*management fee*/
 .mgt_dots img.first_dots {
